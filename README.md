@@ -8,7 +8,7 @@ The build of this project you can download as:
 
 For use, see example to Dockerfile:
 
-FROM ansible:latest
-WORKDIR /opt
-COPY <directory> .
-RUN ansible-playbook <path_main>.yaml
+``FROM ansible:latest``
+``WORKDIR /opt``
+``COPY <directory> .``
+``RUN ansible-playbook <path_main>.yaml``
